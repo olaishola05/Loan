@@ -5,6 +5,108 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+.main {
+    border: solid 1px #3eba94;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+}
+.nav-link {
+    color: black;
+    float: right;
+}
+.nav-link:hover {
+    background: #3eba94;
+    color: white;
+    border-radius: 3px;
+}
+
+.sect-intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.sect-content {
+    width: 50%;
+    margin-top: 3em;
+    padding: 2em;
+}
+.sect-content h1 {
+    font-size: 2rem;
+    color: #385a64;
+    font-weight: bold;
+}
+
+.btn-intro {
+    background: #3eba94;
+    color: white;
+}
+.btn-intro:hover {
+    background: white;
+    color: #3eba94;
+}
+.cont-illustration {
+    width: 50%;
+}
+.cont-illustration img {
+    width: 100%;
+    height: 450px;
+}
+
+.info {
+    width: 100%;
+    background: #3eba94;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+.cont-illustration2 {
+    width: 40%;
+}
+.cont-illustration2 img {
+    width: 100%;
+    height: 300px;
+    border-radius: 70%;
+}
+
+.info-content {
+    width: 50%;
+    border: 1px solid red;
+}
+.info-content h2 {
+    color: white;
+    font-size: 2rem;
+}
+.choose {
+    margin-left: 5em;
+    margin-top: 2em;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+
+.choose ul {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 2em;
+    line-height: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.btn-opt {
+    background: white;
+    color: #3eba94;
+    display: block;
+    margin: 0 auto;
+}
+.btn-opt:hover {
+    background: black;
+    color: white;
+}
 /* 
 bg-color for type of loans: #F8F9FA
 bg-color for why us: #3eba94 and color of white
