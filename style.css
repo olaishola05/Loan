@@ -8,9 +8,9 @@
 html {
     scroll-behavior: smooth;
 }
-.main {
+/* .main {
     border: solid 1px #3eba94;
-}
+} */
 .logo {
     width: 100px;
     height: 50px;
@@ -63,7 +63,7 @@ html {
     margin-top: 3em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 2em;
 }
 .cont-illustration2 {
@@ -76,40 +76,186 @@ html {
 }
 
 .info-content {
-    width: 50%;
-    border: 1px solid red;
+    width: 30%;
+    margin-left: 9em;
 }
 .info-content h2 {
     color: white;
     font-size: 2rem;
 }
+.info-content p {
+    color: white;
+}
 .choose {
     margin-left: 5em;
     margin-top: 2em;
-    border: 1px solid blue;
     margin: 0 auto;
 }
 
 .choose ul {
     color: white;
-    font-size: 1.5rem;
-    padding-left: 2em;
-    line-height: 1.1em;
+    font-size: 1.1rem;
+    padding-left: 1em;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .btn-opt {
     background: white;
     color: #3eba94;
     display: block;
-    margin: 0 auto;
+    margin-left: 2em;
 }
 .btn-opt:hover {
     background: black;
     color: white;
 }
-/* 
-bg-color for type of loans: #F8F9FA
-bg-color for why us: #3eba94 and color of white
+
+.loan-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.loanCont {
+    width: 30%;
+    padding: 2em;
+    margin-top: 2em;
+    /* box-shadow: 5px 10px 8px 10px #888888; */
+}
+/* .loanCont:hover {
+    background: #3eba94;
+    color: white;
+} */
+
+.loanCont h3 {
+    margin-top: 3em;
+}
+
+.loanCont p {
+    text-align: justify;
+}
+
+.micro {
+    width: 30%;
+    padding: 2em;
+    margin-top: 2em;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.micro p {
+    line-height: 1em;
+}
+
+.micro:hover {
+    background: #3eba94;
+    color: white;
+}
+.micro i {
+    font-size: 48px;
+    color: white;
+}
+
+.sme {
+    width: 30%;
+    padding: 2em;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.sme h3 {
+    font-size: 1.5rem;
+}
+.sme:hover {
+    background: #3eba94;
+    color: white;
+}
+
+.btn-loan {
+    background: #3eba94;
+    color: white;
+    display: block;
+}
+
+.btn-loan:hover {
+    background: black;
+    color: white;
+}
+
+/* process section */
+.process {
+    margin-top: 5em;
+}
+.process a {
+    text-decoration: none;
+}
+.process h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.pro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pro-container h3 {
+    text-align: center;
+}
+
+.one {
+    width: 30%;
+    /* border: 1px solid teal; */
+    padding: 2em;
+}
+
+.two {
+    width: 30%;
+    /* border: 1px solid red; */
+    padding: 2em;
+}
+
+.three {
+    width: 30%;
+    /* border: 1px solid grey; */
+    padding: 2em;
+}
+
+.circle {
+    border-radius: 50%;
+    background: #3eba94;
+    color: white;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.btn-apply {
+    display: block;
+    margin: 0 auto;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.goal {
+    width: 65%;
+}
+
+.add {
+    margin-top: 3.5em;
+}
+/* .news {
+    display: flex;
+    flex-direction: row;
+} */
+.foot-input {
+    width: 100px;
+}
+
 
 
 
