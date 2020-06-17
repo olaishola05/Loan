@@ -98,6 +98,9 @@ html {
     padding-left: 1em;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.choose a {
+    text-decoration: none;
+}
 .btn-opt {
     background: white;
     color: #3eba94;
@@ -122,6 +125,9 @@ html {
     padding: 2em;
     margin-top: 2em;
     /* box-shadow: 5px 10px 8px 10px #888888; */
+}
+.loanCont a {
+    text-decoration: none;
 }
 /* .loanCont:hover {
     background: #3eba94;
@@ -235,6 +241,12 @@ html {
     margin: 0 auto;
 }
 
+/* eligibilty check */
+
+.loanForm h3 {
+    text-align: center;
+    font-weight: bold;
+}
 .foot {
     display: flex;
     flex-direction: row;
@@ -255,9 +267,3 @@ html {
 .foot-input {
     width: 100px;
 }
-
-
-
-
-
-*/
