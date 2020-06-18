@@ -247,6 +247,36 @@ html {
     text-align: center;
     font-weight: bold;
 }
+
+.form-container {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+label {
+    padding-right: 1em;
+}
+
+input {
+    padding: 2em;
+    margin-bottom: 0.5em;
+}
+select {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.day {
+    margin-right: 0.5em;
+}
+.month {
+    margin-right: 0.5em;
+}
+
+.amount {
+    margin-left: 0.5em;
+}
 .foot {
     display: flex;
     flex-direction: row;
