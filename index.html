@@ -4,8 +4,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Loan Options</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/all-awesome.min.css" />
-        
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link
             rel="stylesheet"
@@ -179,7 +177,7 @@
                     </div>
                     </div>
                 </div>
-                <button class="btn btn-loan btn-apply" id="btn-apply">Get Your Loan</button>
+                <a href="#loanForm"><button class="btn btn-loan btn-apply" id="btn-apply">Get Your Loan</button></a>
             </section>
             <hr>
             <section>
@@ -329,7 +327,7 @@
 
                                 <div class="form-group">
                                     <label for="loan">Purpose of Loan:</label>
-                                    <input type="text" class="form-control" placeholder="purpose of loan" required>
+                                    <input type="text" class="form-control" id="purpose" placeholder="purpose of loan" required>
 
                                     <label class="amount" for="amount">Amount:</label>
                                     <input type="number" class="form-control" id="loanAmnt" placeholder="Loan Amount" required>
@@ -347,7 +345,7 @@
                                 <input type="text" class="form-control mr-3" placeholder="Current Residence address" required>
                                 <input type="text" class="form-control" placeholder="City" required>
                                 </div>
-                                <button class="btn btn-success" id="formbtn">Submit</button>
+                                <button class="btn btn-apply btn-loan" id="formbtn">Apply</button>
                         </div>
                     </form>
                 </div>
@@ -385,8 +383,8 @@
             </footer>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
         <script src="app.js"></script>
     </body>
 </html>

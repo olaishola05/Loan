@@ -277,6 +277,12 @@ select {
 .amount {
     margin-left: 0.5em;
 }
+
+#formbtn {
+    padding: 0.5em;
+    width: 200px;
+    margin-top: 1.5em;
+}
 .foot {
     display: flex;
     flex-direction: row;
