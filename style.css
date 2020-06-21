@@ -8,9 +8,7 @@
 html {
     scroll-behavior: smooth;
 }
-/* .main {
-    border: solid 1px #3eba94;
-} */
+
 .logo {
     width: 100px;
     height: 50px;
@@ -63,7 +61,6 @@ html {
     margin-top: 3em;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding: 2em;
 }
 .cont-illustration2 {
@@ -124,16 +121,10 @@ html {
     width: 30%;
     padding: 2em;
     margin-top: 2em;
-    /* box-shadow: 5px 10px 8px 10px #888888; */
 }
 .loanCont a {
     text-decoration: none;
 }
-/* .loanCont:hover {
-    background: #3eba94;
-    color: white;
-} */
-
 .loanCont h3 {
     margin-top: 3em;
 }
@@ -155,10 +146,6 @@ html {
 
 .micro:hover {
     background: #3eba94;
-    color: white;
-}
-.micro i {
-    font-size: 48px;
     color: white;
 }
 
@@ -210,19 +197,16 @@ html {
 
 .one {
     width: 30%;
-    /* border: 1px solid teal; */
     padding: 2em;
 }
 
 .two {
     width: 30%;
-    /* border: 1px solid red; */
     padding: 2em;
 }
 
 .three {
     width: 30%;
-    /* border: 1px solid grey; */
     padding: 2em;
 }
 
@@ -282,6 +266,7 @@ select {
     padding: 0.5em;
     width: 200px;
     margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 .foot {
     display: flex;
@@ -290,16 +275,168 @@ select {
 }
 
 .goal {
-    width: 65%;
+    width: 60%;
 }
 
 .add {
     margin-top: 3.5em;
 }
-/* .news {
-    display: flex;
-    flex-direction: row;
-} */
+
 .foot-input {
     width: 100px;
+}
+.foot-form {
+    margin-left: 8em;
+    margin-top: 3.5em;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+    .sect-intro {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sect-content {
+        width: 70%;
+    }
+    .sect-content h1 {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    .sect-content p {
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
+    .cont-illustration {
+        width: 30%;
+    }
+
+    .cont-illustration img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cont-illustration2 {
+        width: 60%;
+    }
+
+    .cont-illustration2 img {
+        width: 100%;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 6em;
+    }
+    .info {
+        height: 400px;
+    }
+    .info-content {
+        width: 100%;
+        margin-left: 3em;
+    }
+
+    .info-content h2 {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .info-content p {
+        font-size: 0.65em;
+        text-align: left;
+    }
+
+    .info-content li {
+        font-size: 0.7em;
+    }
+
+    .btn-opt {
+        width: 100%;
+        font-size: 0.7em;
+    }
+
+    .loan-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loanCont {
+        width: 100%;
+    }
+
+    .loanCont h3 {
+        margin-top: 0.5em;
+    }
+
+    .micro {
+        width: 100%;
+    }
+
+    .sme {
+        width: 100%;
+    }
+
+    .process {
+        margin-top: 3em;
+    }
+    .process h2 {
+        font-size: 1.5rem;
+    }
+    .pro-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .one h5 {
+        text-align: center;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .two h5 {
+        text-align: center;
+    }
+
+    .two p {
+        text-align: justify;
+    }
+
+    .three {
+        width: 100%;
+    }
+
+    .three h5 {
+        text-align: center;
+    }
+
+    .loanForm h3 {
+        font-size: 1.5rem;
+    }
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .goal {
+        width: 90%;
+    }
+
+    .goal p {
+        text-align: justify;
+    }
+    .foot-input {
+        width: 100%;
+    }
+    .foot-form {
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
 }
