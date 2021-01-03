@@ -50,10 +50,10 @@ The project was built with the following Tech/framework:
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 ### Prerequisites
-* Install liveserver from VSCode extension
+* Install liveserver extension from VSCode extension market
 ### Installation
 1. Clone the repo
-   `git clone https://github.com/netman5/Loan.git`
+   ``` git clone https://github.com/netman5/Loan.git ```
 2. Run the App by clicking on the liverserver extension at the bottom right corner of VScode
 
 <!-- CONTRIBUTING -->
