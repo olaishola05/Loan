@@ -38,13 +38,19 @@
             >
                 <ul class="nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html"
+                            >Home</a
+                        >
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#our-offer"
+                            >Services</a
+                        >
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#choose"
+                            >About</a
+                        >
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -239,7 +245,7 @@
             <section>
                 <div class="loanForm" id="loanForm">
                     <h3>Check your eligibilty today</h3>
-                    <form id="forms">
+                    <form name="forms">
                         <div class="form-container">
                             <div class="form-group">
                                 <label for="fname">Name:</label>
@@ -673,6 +679,7 @@
                                         type="checkbox"
                                         class="form-check-input"
                                         id="exampleCheck1"
+                                        name="emp"
                                     />
                                     <label
                                         class="form-check-label"
@@ -686,6 +693,7 @@
                                         type="checkbox"
                                         class="form-check-input"
                                         id="exampleCheck2"
+                                        name="emp"
                                     />
                                     <label
                                         class="form-check-label"
@@ -724,6 +732,7 @@
                             <button
                                 class="btn btn-apply btn-loan"
                                 id="formbtn"
+                                onload="return validation()"
                             >
                                 Check
                             </button>
